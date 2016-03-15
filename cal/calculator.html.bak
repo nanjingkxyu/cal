@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="calculator.css"/>
+  <script type="text/javascript" src="calculator.js"></script>
+ </head>
+ <body>
+ <div>
+  <div id="header">
+	<input type="text" id="text1" value="0" readonly="readonly"/> 
+  </div>
+  <div id="main">
+  <div class="row">
+	<input type="button" value="^" class="botleft" onclick="fang()"/>
+	<input type="button" value="√" class="bot" onclick="kaigen()"/>
+	<input type="button" value="≡" class="bot" onclick="quyu()"/>
+	<input type="button" value="AC" class="bot" onclick="ac()"/>
+  </div>
+
+  <div class="row">
+	<input type="button" value="7" id="seven" class="botleft light" onclick="fu7()"/>
+	<input type="button" value="8" id="eight" class="bot light" onclick="fu8()"/>
+	<input type="button" value="9" id="nine" class="bot light" onclick="fu9()"/>
+	<input type="button" value="÷" id="" class="bot" onclick="divide()"/>
+  </div>
+    
+  <div class="row">
+	<input type="button" value="4" id="four" class="botleft light" onclick="fu4()"/>
+	<input type="button" value="5" id="five" class="bot light" onclick="fu5()"/>
+	<input type="button" value="6" id="six" class="bot light" onclick="fu6()"/>
+	<input type="button" value="x" class="bot" onclick="mul()"/>
+  </div>
+    
+  <div class="row">
+	<input type="button" value="1" id="one" class="botleft light" onclick="fu1()"/>
+	<input type="button" value="2" id="two" class="bot light" onclick="fu2()"/>
+	<input type="button" value="3" id="three" class="bot light" onclick="fu3()"/>
+	<input type="button" value="-" class="bot" onclick="minus()"/>
+  </div>
+  
+  <div class="row">
+	<input type="button" value="0" id="zero" class="botleft light" onclick="fu0()"/>
+	<input type="button" value="." class="bot light" onclick="dian()"/>
+	<input type="button" value="=" class="bot blue" onclick="count()"/>
+	<input type="button" value="+" class="bot" onclick="add()"/>
+  </div>
+  </div>
+ </div>
+ </body>
+</html>
